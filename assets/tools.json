@@ -1,0 +1,14 @@
+[
+    {
+        "name": "base64",
+        "displayName": "Base64",
+        "extended": false,
+        "useComponent": "Base64.vue"
+    },
+    {
+        "name": "base2048",
+        "displayName": "Base2048",
+        "extended": false,
+        "useComponent": "Base2048.vue"
+    }
+]
