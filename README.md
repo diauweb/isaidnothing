@@ -1,6 +1,6 @@
 # saidnothing
 
-> A tool for converting text to different encoding methods.
+> A tool for converting text to different representations.
 
 ## Build Setup
 
