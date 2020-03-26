@@ -1,7 +1,7 @@
 <script>
 
 import * as Base2048 from '~/node_modules/base2048/dist/es6/base2048.js'
-console.log(Base2048)
+
 export default {
   algo: {
     encode (text) {
