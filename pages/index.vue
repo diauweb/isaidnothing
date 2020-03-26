@@ -20,8 +20,7 @@
         class="text"
         :style="{ color: resultFailed? 'red' : 'black' }"
         :value="result" 
-        placeholder="Output" 
-        readonly>
+        placeholder="Output" >
         </textarea>
       <div v-if="currentTool">
         <div v-if="currentTool.extended">
