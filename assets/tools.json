@@ -10,5 +10,11 @@
         "displayName": "Base2048",
         "extended": false,
         "useComponent": "Base2048.vue"
+    },
+    {
+        "name": "base65536",
+        "displayName": "Base65536",
+        "extended": false,
+        "useComponent": "Base65536.vue"
     }
 ]
