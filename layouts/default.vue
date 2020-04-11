@@ -1,7 +1,7 @@
 <template>
   <div>
     <nuxt />
-    <div class="text-center text-gray-400">Xiaodai Dai 2020</div>
+    <div class="text-center text-black opacity-25 my-10">Xiaodai Dai 2020</div>
   </div>
 </template>
 
