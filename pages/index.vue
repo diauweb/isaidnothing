@@ -24,7 +24,7 @@
         placeholder="Output" >
         </textarea>
       <div v-if="currentTool">
-        <div v-if="currentTool.extended">
+        <div class="option" v-if="currentTool.extended">
           <keep-alive>
             <component :is="currentTool.comp"></component>
           </keep-alive>
@@ -99,9 +99,13 @@ export default {
   }
 
   .text {
-    @apply w-full h-48 bg-gray-200 rounded px-5 py-3;
+    @apply w-full bg-gray-200 rounded px-5 py-3 h-48;
   }
   
+  .option {
+    @apply w-full bg-gray-200 rounded px-5 py-3 pb-4 text-gray-800;
+  }
+
   .button {
     @apply bg-blue-500 px-5 py-2 text-white inline-block;
     @apply cursor-pointer;
