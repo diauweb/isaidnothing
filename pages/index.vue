@@ -19,7 +19,8 @@
       <textarea 
         class="text"
         :style="{ color: resultFailed? 'red' : 'black' }"
-        :value="result" 
+        :value="result"
+        :readonly="resultFailed"
         placeholder="Output" >
         </textarea>
       <div v-if="currentTool">
