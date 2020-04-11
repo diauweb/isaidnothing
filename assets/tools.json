@@ -16,5 +16,23 @@
         "displayName": "Base65536",
         "extended": false,
         "useComponent": "Base65536.vue"
+    },
+    {
+        "name": "hexagram",
+        "displayName": "Hexagram",
+        "extended": false,
+        "useComponent": "Hexagram.vue"
+    },
+    {
+        "name": "braille",
+        "displayName": "Braille",
+        "extended": false,
+        "useComponent": "Braille.vue"
+    },
+    {
+        "name": "ecoji",
+        "displayName": "Ecoji",
+        "extended": true,
+        "useComponent": "Ecoji.vue"
     }
 ]
