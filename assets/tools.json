@@ -34,5 +34,11 @@
         "displayName": "Ecoji",
         "extended": true,
         "useComponent": "Ecoji.vue"
+    },
+    {
+        "name": "cherugo",
+        "displayName": "Cherugo",
+        "extended": false,
+        "useComponent": "Cherugo.vue"
     }
 ]
